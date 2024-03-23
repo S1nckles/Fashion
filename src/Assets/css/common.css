@@ -1,3 +1,16 @@
+:root {
+    --textColor: black;
+    --mainColor: #EBD96B;
+
+}
+
 body {
-    font-family: 'Poppins', sans-serif
+    font-family: 'Poppins', sans-serif;
+    color: var(--textColor);
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1750px;
+    padding: 0 15px;
 }
