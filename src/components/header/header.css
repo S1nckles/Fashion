@@ -45,21 +45,3 @@
 .header__btn {
     max-width: 134px;
 }
-.header__btn button {
-    padding: 13px 22px 17px;
-    max-width: 134px;
-    border-radius: 7px;
-    background: #000000;
-    color: #FEFEFE;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 36px;
-    letter-spacing: -0.03em;
-    text-align: left;
-}
-
-.header__btn button:hover {
-    transition: all 0.3s ease-in-out;
-    color: var(--textColor);
-    background-color: var(--mainColor);
-}

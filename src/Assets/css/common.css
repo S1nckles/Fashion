@@ -14,3 +14,21 @@ body {
     max-width: 1750px;
     padding: 0 15px;
 }
+
+.btn {
+    padding: 13px 22px 17px;
+    border-radius: 7px;
+    background: #000000;
+    color: #FEFEFE;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: -0.03em;
+    text-align: left;
+}
+
+.btn:hover {
+    transition: all 0.3s ease-in-out;
+    color: var(--textColor);
+    background-color: var(--mainColor);
+}

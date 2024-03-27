@@ -13,7 +13,7 @@ const Header = () => {
                         <li><a href="#">FAVOURITE</a></li>
                         <li><a href="#">LIFESTYLE</a></li>
                     </ul>
-                    <div className="header__btn"><button type='submit'>SIGN UP</button></div>
+                    <div className="header__btn"><button className='btn' type='submit'>SIGN UP</button></div>
                 </nav>
             </div>
         </div>
