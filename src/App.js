@@ -1,6 +1,7 @@
 import Arrivals from "./components/arrivals/Arrivals";
 import Banner from "./components/banner/Banner";
 import Brands from "./components/brands/Brands";
+import Community from "./components/community/Community";
 import Download from "./components/download/Download";
 import Favourite from "./components/favourite/Favourite";
 import Header from "./components/header/Header";
@@ -16,6 +17,7 @@ function App() {
       <Banner />
       <Favourite />
       <Download />
+      <Community />
     </div>
   );
 }
