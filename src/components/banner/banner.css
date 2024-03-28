@@ -1,0 +1,81 @@
+.banner {
+    background: linear-gradient(1.32deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
+
+    margin-bottom: 123px;
+}
+
+.banner__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner__img, .banner__img img {
+    max-width: 991px;
+    max-height: 968px;
+}
+.banner__img {
+    width: 991.42px;
+    height: 968px;
+    overflow: hidden;
+    background-color: rgb(192, 188, 188);
+
+}
+
+.banner__content {
+    max-width: 666px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner__title {
+    font-size: 111.61px;
+    font-weight: 900;
+    line-height: 137.19px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 33px;
+}
+
+.banner__title span {
+    position: relative;
+    z-index: 2;
+}
+.banner__title span::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: -23px;
+    max-width: 541.43px;
+    transform: rotate(-2deg);
+    z-index: -1;
+    background: #FFFFFF;
+}
+
+.banner__desc {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 52.32px;
+    letter-spacing: -0.02em;
+    margin-bottom: 41px;
+}
+.banner__date {
+    display: inline-flex;
+    flex-direction: column;
+
+    font-size: 36.04px;
+    font-weight: 400;
+    line-height: 52.32px;
+    letter-spacing: -0.02em;
+    margin-bottom: 51px;
+}
+.banner__date span {
+    letter-spacing: 0.02em;
+}
+
+.banner__btn-wrapper .banner__btn {
+    padding: 27px 51px;
+}
