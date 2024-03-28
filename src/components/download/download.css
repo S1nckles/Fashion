@@ -1,0 +1,40 @@
+.download {
+    margin: 220px 0;
+}
+.download__inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.download__content {
+    max-width: 587px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.download__title {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 72px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: var(--textColor);
+
+    margin-bottom: 41px;
+}
+.download__desc {
+    max-width: 80%;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: rgba(124, 124, 124, 1);
+
+    margin-bottom: 65px;
+}
+.download__action {
+    display: flex;
+    gap: 20px;
+}
