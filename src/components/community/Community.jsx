@@ -12,7 +12,7 @@ const Community = () => {
                 <div className="community__title"><h3>JOIN SHOPPING COMMUNITY TO GET MONTHLY PROMO</h3></div>
                 <div className="community__desc"><p>Type your email down below and be young wild generation</p></div>
                 <div className="community__send">
-                    <input className='community__input' type="email" />
+                    <input className='community__input' type="email" placeholder='Add your email here' />
                     <button className="btn input__btn" onClick={notice}>Send</button>
                 </div>
             </div>
