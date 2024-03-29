@@ -1,0 +1,14 @@
+.footer__social {
+    width: 52px;
+    height: 52px;
+    padding: 16px;
+    background-color: var(--mainColor);
+    display: flex;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease-in-out;
+}
+.footer__social:hover {
+    background-color: white;
+}
